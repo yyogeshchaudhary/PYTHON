@@ -1,0 +1,17 @@
+
+Default Arrgument:
+	def functionName(var1, var2, var3=10)
+
+	var3=10 : is called as default arrgument and we can call function with 2 or 3 parameters 
+	if we call the function with 3 parameter then it will override the value of var3 with given value
+	every default parameter should be trailing param not at middle of function param
+
+Keyword Arrgument:
+	def functionName(var1, var2, var3)
+
+	we can call it as follows:
+		functionName(var2=10, var1='String', var3= 40)
+
+	we have to use the same keyword as defined in functionName while defining
+
+
